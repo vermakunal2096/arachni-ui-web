@@ -131,6 +131,6 @@ for working with the source code.
 * Commit and push your changes.
 * Issue a pull request and wait for your code to be reviewed.
 
-## License
+## Licensessss
 
 Arachni Public Source License v1.0 -- please see the _LICENSE_ file for more information.
