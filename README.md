@@ -116,7 +116,7 @@ security scanner framework.
 Submit bugs using [GitHub Issues](http://github.com/Arachni/arachni-ui-web/issues)
 and get support via the [Support Portal](http://support.arachni-scanner.com).
 
-## Contributing
+## Contributingss
 
 If you make improvements to this application, please share with others.
 
