@@ -2,5 +2,5 @@ projectKey=New_Project
 serverUrl=http://54.167.30.197:9000
 serverVersion=8.9.1.44547
 dashboardUrl=http://54.167.30.197:9000/dashboard?id=New_Project
-ceTaskId=AXpgjTvAzsNbp2DBDQGC
-ceTaskUrl=http://54.167.30.197:9000/api/ce/task?id=AXpgjTvAzsNbp2DBDQGC
+ceTaskId=AXphcOk23gMcL5wsUOwe
+ceTaskUrl=http://54.167.30.197:9000/api/ce/task?id=AXphcOk23gMcL5wsUOwe
