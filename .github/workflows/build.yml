@@ -14,6 +14,8 @@ jobs:
         with:
           fetch-depth: 0
       - uses: docker://sonarsource/sonar-scanner-cli
+        with: 
+          projectBaseDir: /home/ubuntu/arachni/
           args: >
             -Dsonar.projectKey=Test_Project
             -Dsonar.login=admin
