@@ -1,9 +1,9 @@
 const scanner = require("sonarqube-scanner");
 scanner({
-serverUrl : 'http://54.167.30.197:9000/',
-token : "ae51059a76051b64e76a36ba8ab3e7244f1a4ed4",
+serverUrl : 'http://54.225.13.81:9000/',
+token : "171a5a2dab1fdd9fa833cf7f984a40b4644a2c1e",
 options: {
-"sonar.projectKey": "New_Project",
+"sonar.projectKey": "Test_Project",
 "sonar.sources": "/home/ubuntu/arachni/"
 },
 },
