@@ -10,7 +10,7 @@ require 'arachni/rpc/client'
 
 class Scan < ActiveRecord::Base
     include Extensions::Notifier
-
+abjlcja vjja vljll al l
     self.inheritance_column = 'inheritance_column'
 
     TYPES = [:direct, :remote, :grid]
