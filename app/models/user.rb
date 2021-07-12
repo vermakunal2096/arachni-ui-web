@@ -13,6 +13,7 @@ class User < ActiveRecord::Base
     has_many :comments
     has_many :notifications, dependent: :destroy
     has_and_belongs_to_many :scan_groups
+    hello user
 
     rolify
     # Include default devise modules. Others available are:

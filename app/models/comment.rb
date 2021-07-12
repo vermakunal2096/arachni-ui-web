@@ -5,7 +5,6 @@
     redistribution and commercial restrictions. Please see the Arachni WebUI
     web site for more information on licensing and terms of use.
 =end
-
 class Comment < ActiveRecord::Base
     belongs_to :commentable, polymorphic: true
     belongs_to :user
