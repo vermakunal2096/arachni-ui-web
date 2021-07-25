@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: arachni
+  labels:
+    app: arachni
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: arachni
+  template:
+    metadata:
+      labels:
+        app: arachni
+    spec:
+      containers:
+      - name: arachni
+        image: arachni/arachni:latest
+        ports:
+        - containerPort: 9292
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: arachni
+  namespace: arachni
+spec:
+  type: NodePort
+  selector:
+    app: arachni
+  ports:
+      # By default and for convenience, the `targetPort` is set to the same value as the `port` field.
+    - port: 9292
